@@ -1,0 +1,10 @@
+[Unit]
+Description=Play strange music everyday
+
+[Timer]
+OnCalendar=daily
+AccuracySec=24h
+Persistent=true
+
+[Install]
+WantedBy=timers.target
